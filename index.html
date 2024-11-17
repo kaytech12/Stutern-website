@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        type="text/javascript"></script>
+
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="Stutern.css">
+    <title>STUTERN Clone Page</title>
+    <meta name="generator" content="SEOmatic">
+</head>.
+
+<body>
+    <!--nav stars here-->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top py-4 px-4">
+        <a class="navbar-brand" href="index.html"><img src="../Stuttern/St logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Courses </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a class="dropdown-item" href="#"><strong>Our program</strong> </a></li>
+                        <li><a class="dropdown-item" href="#"> Product Design (UI/UX) </a></li>
+                        <li><a class="dropdown-item" href="#"> Frontend Development</a></li>
+                        <li><a class="dropdown-item" href="#"> Backend Developmen</a></li>
+                        <li><a class="dropdown-item" href="#"> Data Science </a></li>
+                        <li><a class="dropdown-item" href="#"> Mobile Development</a></li><br>
+                        <br>
+                        <li><a class="dropdown-item" href="#"> <strong>Free Courses</strong></a></li>
+                        <li><a class="dropdown-item" href="#"> Product Design (UI/UX) <svg
+                                    xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"
+                                    width="20px" fill="#000000">
+                                    <path
+                                        d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h528v-264h72v264q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm171-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z" />
+                                </svg></a></a></li>
+                        <li><a class="dropdown-item" href="#">Software Development <svg
+                                    xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"
+                                    width="20px" fill="#000000">
+                                    <path
+                                        d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h528v-264h72v264q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm171-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z" />
+                                </svg> </a></li>
+                        <li><a class="dropdown-item" href="#"> Data Science <svg xmlns="http://www.w3.org/2000/svg"
+                                    height="20px" viewBox="0 -960 960 960" width="20px" fill="#000000">
+                                    <path
+                                        d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h528v-264h72v264q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm171-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z" />
+                                </svg></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown"> Hire Talents <svg
+                            xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="20px"
+                            fill="#000000">
+                            <path
+                                d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h528v-264h72v264q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm171-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z" />
+                        </svg> </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown"> Research </a>
+                </li>
+
+                <li class="nav-item ml-5"><a class="nav-link" href="#" id="login">Blogs <svg
+                            xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
+                            fill="#000000">
+                            <path
+                                d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h528v-264h72v264q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm171-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z" />
+                        </svg></a></li>
+            </ul>
+        </div>
+        <!-- navbar-collapse.// -->
+    </nav>
+    <div class="hero-section">
+        <div class="hero">
+            <div class="mon">
+                <p>Start financing your education with stutern <img src="arrow-right.png" alt=""></p>
+                <h1> Kickstart your <br>career in tech today </h1>
+                <h6>Stutern is a skills development and job placement <br> platform that trains and connects young
+                    African
+                    talents <br>with long-term employment.</h6>
+                <button> Take a course</button>
+            </div>
+
+            <div class="hero-images">
+                <img src="st1.png" class="kg" alt="">
+                <img src="st2.png" class="kg2" alt="">
+            </div>
+        </div>
+    </div>
+<div class="mid-section">
+    <div class="son">
+        <h1>Be employable in 6 <span class="we">years</span> <span class="wen"> months</span></h1>
+        <p>Join the Stutern Graduate Accelerator - an immersive program that gives you the head start to get a job in
+            tech. With the right mentors, peer-to-peer critiques, and challenging projects, any skill can be mastered.
+        </p>
+        <button> Take a course</button>
+
+    </div>
+    <div > <img src="st3.png" alt="" class="mid-section-img"></div>
+</div>
+    <iframe width="1130px" height="600px" src="https://www.youtube.com/embed/YDbUnthj4s4?si=q-krwl2Bq37OmgJw"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="sp">
+        <h1> We made it believable They made it real</h1>
+        <p>Stutern has helped many young talents launch new and promising careers.</p>
+    </div>
+    <div class="ppl">
+        <div>
+            <img src="st4.png" alt="">
+            <h3>Ayowole Adenuga</h3>
+            <p>Software Engineer</p>
+            <p>Interswitch 🇳🇬</p>
+        </div>
+        <div>
+            <img src="st5.png" alt="">
+            <h3>Silas Onmbayugh</h3>
+            <p>Product Designer</p>
+            <p>Canva 🇦🇺</p>
+        </div>
+        <div>
+            <img src="st6.png" alt="">
+            <h3>Jessica Nkemeze</h3>
+            <p>Frontend Engineer</p>
+            <p>Quidax 🇳🇬</p>
+        </div>
+        <div>
+            <img src="st7.png" alt="">
+            <h3>Oluwatobi Babalola</h3>
+            <p>Product Designer</p>
+            <p>Farmerline 🇬🇭</p>
+        </div>
+        <div>
+            <img src="st8.png" alt="">
+            <h3>Busayo Odesanya</h3>
+            <p>User Experience Designer</p>
+            <p>Accedian 🇨🇦</p>
+        </div>
+        <div>
+            <img src="st9.png" alt="">
+            <h3>Chinonso Raymond</h3>
+            <p>Product Designer</p>
+            <p>Paystack 🇳🇬</p>
+        </div>
+        <div>
+            <img src="st10.png" alt="">
+            <h3>Jide Olutola</h3>
+            <p>Software Developer</p>
+            <p>Lopworks 🇳🇬</p>
+        </div>
+        <div>
+            <img src="st11.png" alt="">
+            <h3>Eleanor Ezimah</h3>
+            <p>Product Designer</p>
+            <p>Truebill 🇺🇸</p>
+        </div>
+    </div>
+    <div class="bac">
+        <h1>“I had been a graphics designer for over three years and was looking to make the switch to Product Design.
+            The SGA program was so instrumental in the transition. Stutern gave me a platform to jump start my career.”
+        </h1>
+        <div>
+            <img src="st12.png" alt="">
+            <div>
+                <h3>Silas Onmbayugh</h3>
+                <p>PRODUCT DESIGNER</p>
+                <p>CANVA</p>
+            </div>
+        </div>
+    </div>
+    <div class="pal">
+        <h1>Trusted by CEOs and Hiring Managers all over the world</h1>
+        <p>We match employers with trained and vetted candidates that are a perfect fit for their companies. That’s why
+            companies love us.</p>
+        <img src="st13.png" alt="">
+    </div>
+    <div class="alk">
+        <h1>Ready to talk? <br> We're here to help</h1>
+        <button>I want to hire</button>
+        <button class="bit"> I want to be hired</button>
+    </div>
+    <div class="last">
+        <div class="kim">
+            <div class="S">S</div>
+            <h4>STUTERN</h4>
+            <p>team@stutern.com</p>
+            <p>+234-904-832-0099</p>
+        </div>
+        <div class="abc">
+            <h1>OUR PROGRAMS</h1>
+            <p>Product Design (UI/UX)</p>
+            <p>Frontend Development</p>
+            <p> Backend Development</p>
+            <p>Data Science</p>
+            <p>Mobile Development</p>
+        </div>
+        <div class="abd">
+            <h1>FREE COURSES</h1>
+            <p>Product Design (UI/UX)</p>
+            <p>Software Development</p>
+            <p>Data Science</p>
+        </div>
+        <div class="abe">
+            <h1>COMPANY</h1>
+            <p>Hire Talents <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="20px"
+                    fill="#ffffff">
+                    <path
+                        d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h528v-264h72v264q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm171-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z" />
+                </svg></p>
+            <p>Research</p>
+            <p>Blogs <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
+                    fill="#ffffff">
+                    <path
+                        d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h264v72H216v528h528v-264h72v264q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm171-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z" />
+                </svg></p>
+        </div>
+    </div>
+</body>
+
+</html>
